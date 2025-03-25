@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Cinema</title> 
+    <title>www.cinetay.com</title> 
     <style>
-        body {
-            background-color: rgba(119, 50, 88, 0.651);
+      body {
+            /* Adicionando fundo em degradê */
+            background: linear-gradient(to right, rgba(82, 233, 213, 0.651), rgba(16, 83, 78, 0.651));
             color: black;
         }
     </style>
@@ -16,7 +17,54 @@
     <h2>CINETAY</h2>
     <p>Bora de filminho?!</p>
 
-    <h2>EM CARTAZ</h2>
+    <!--LOGIN-->
+</footer>
+<h3>LOGIN</h3>
+<footer> 
+   <form>
+       <label for = "Usuário"> Usuário </label>
+       <input type="text" name="Usuário">
+       <label for="senha"> Senha </label>
+       <input type="password" name="Senha">
+        <br>
+        <button type="reset"> ENTRAR </button>
+      
+<!--CRIE UMA CONTA-->
+   </form>
+</footer>
+      <h4> Não tem uma conta? Crie uma Abaixo:</h4>
+    <h3> CADASTRE-SE </h3>
+     <footer>
+        <form>
+            <label for="name"> Nome Completo:</label> <br>
+            <input type="text"> 
+            <br>
+            <label for="email"> Coloque seu Email:</label><br>
+            <input type="email">
+            <br>
+            <label for="telefone"> Telefone: </label><br>
+            <input type="number">
+            <br>
+            <label for="data"> Data de Nascimento: </label><br>
+            <input type="date">
+            <br>
+            <label for = "Genero"> Genero: </label>
+            <br>
+            <label for="Feminino"> Feminino</label>
+            <input type="checkbox" name="mulher" >
+            <label for="Masculino"> Masculino </label>
+            <input type="checkbox" name="Homem" >
+            <label for="outros"> Outros</label>
+            <input type="checkbox" name="outros">
+            <br>
+            <button type="reset"> CADASTRAR </button>
+        
+        </form>
+     </footer>
+     
+<br>
+<br>
+    <h2>Filmes EM CARTAZ</h2>
     <ul>
         <li>Capitão América: Admirável Mundo Novo</li>
         <li>A Branca de Neve</li>
@@ -24,41 +72,114 @@
         <li>Deu Preguiça</li>
     </ul>
 
-    <h2>COMPRE SEU INGRESSO</h2>
+
+ <!-- tabelas -->
+    <section>
+        <table border = "1">
+      <thead> <!--TCabeçalho-->
+                <h2> INFORMAÇÕES </h2>
+            <tr>
+                 <th>Filmes</th> <!-- "th" Deixar em negrito e centralizado-->
+                 <th>Tempo</th>
+                 <th>Nota</th> <!-- colspan mesclas as linhas e rowspan -->
+                 <th>Sessões</th>
+            </tr>
+
+      </thead>
+                
+      <tbody><!--TCorpo-->
+            <tr>
+                <td>Capitão America</td>
+                <td>1h 30 min</td>
+                <td>10</td>
+                <td> 10 sessão</td>
+
+            </tr>
+
+            <tr> <!--Linha-->
+                <td>Branca de Neve</td>
+                <td>2h </td>
+                <td>9.9</td>
+                <td> 9 sessão</td>
+            </tr>
+
+            <tr>
+                <td>Minecraft</td>
+                <td> 1h 30min</td>
+                <td> 10 </td>
+                <td> 5 sessão</td>
+            </tr>
+
+            <tr>
+                <td>Deu Preguiça</td>
+                <td> 1h 50min</td>
+                <td> 5 </td>
+                <td> 2 sessão</td>
+            </tr>
+
+
+    </tbody>
+           
+        </table>
+    </section>
+
+
+
+<!-- link dos ingressos -->
+    <h2>Compre seu ingresso nos links abaixo.</h2>
     <ul>
         <li><a href="https://www.cineflix.com.br/" target="_blank">CINE FLIX</a></li>
         <li><a href="https://www.cinemark.com.br/" target="_blank">CINE MARK</a></li>
     </ul>
 
+
+<!-- -->
+    <h1> Filmes 👇</h1>
     <h2>Capitão América: Admirável Mundo Novo</h2>
     <img width="100" height="100" src="https://gsobmidia.com.br/uploads/filmes/3218/81fd4d1c-ac17-427c-b586-9473798ab5f0_1738862185.jpg" alt="Capitão América: Admirável Mundo Novo">
 
     <h2>TRAILER</h2>
     <p>Abaixo, você pode assistir ao trailer do filme CAPITÃO AMERICA.</p>
-    <iframe width="800" height="400" src="https://www.youtube.com/embed/U7JG6FMoEdM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="700" height="400" src="https://www.youtube.com/embed/U7JG6FMoEdM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-    <h2>A BRANCA DE NEVE</h2>
-    <img width="100" height="100" src="https://gsobmidia.com.br/uploads/filmes/3299/6dd6b08b-07bb-4587-886c-02d63c4a8864_1741875054.jpg" alt="A Branca de Neve">
 
-    <h2>Trailer</h2>
-    <p>Abaixo, você pode assistir ao trailer do filme A BRANCA DE NEVE.</p>
-    <iframe width="800" height="400" src="https://www.youtube.com/embed/X3o9GyKda1k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+<!-- -->
+       <h2>A BRANCA DE NEVE</h2>
+       <img width="100" height="100" src="https://gsobmidia.com.br/uploads/filmes/3299/6dd6b08b-07bb-4587-886c-02d63c4a8864_1741875054.jpg" 
+        alt="A Branca de Neve">
+
+       <h2>Trailer</h2>
+       <p>Abaixo, você pode assistir ao trailer do filme A BRANCA DE NEVE.</p>
+       <iframe width="700" height="400" src="https://www.youtube.com/embed/X3o9GyKda1k"
+        frameborder="0" allow="autoplay;
+        encrypted-media" allowfullscreen></iframe>
+
+
+<!-- -->
     <h2>MINECRAFT</h2>
-    <img width="100" height="100" src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2024/11/20/1973597620-minecraftthemoviever3xlg.jpg" alt="Minecraft">
+    <img width="100" height="100" src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2024/11/20/1973597620-minecraftthemoviever3xlg.jpg" 
+    alt="Minecraft">
 
     <h2>TRAILER</h2>
     <p>Abaixo, você pode assistir ao trailer do filme MINECRAFT.</p>
-    <iframe width="800" height="400" src="https://www.youtube.com/embed/8B1EtVPBSMw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="700" height="400" src="https://www.youtube.com/embed/8B1EtVPBSMw"
+     frameborder="0" allow="autoplay; 
+     encrypted-media" allowfullscreen></iframe>
 
-    <h2>DEU PREGUIÇA</h2>
-    <img width="100" height="100" src="https://gsobmidia.com.br/uploads/filmes/3305/927e7d70-654e-4161-8caf-f8bbffc1c147_1742482141.jpg" alt="Deu Preguiça">
+      
+<!-- -->
+       <h2>DEU PREGUIÇA</h2>
+       <img width="100" height="100" src="https://gsobmidia.com.br/uploads/filmes/3305/927e7d70-654e-4161-8caf-f8bbffc1c147_1742482141.jpg" 
+       alt="Deu Preguiça">
 
-    <h2>TRAILER</h2>
-    <p>Abaixo, você pode assistir ao trailer do filme DEU PREGUIÇA.</p>
-    <iframe width="800" height="400" src="https://www.youtube.com/embed/MkS3qzC13uQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+       <h2>TRAILER</h2>
+       <p>Abaixo, você pode assistir ao trailer do filme DEU PREGUIÇA.</p>
+       <iframe width="700" height="400" src="https://www.youtube.com/embed/MkS3qzC13uQ" 
+       frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-    
+  
 </body>
 </html>
+
 
