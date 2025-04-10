@@ -1,4 +1,3 @@
-/* Estilos principais para o corpo e fontes */
 body {
     background: #8C1414;
     color: #ffffff;
@@ -80,7 +79,6 @@ nav a:hover {
     }
 }
 
-/* Estilos para o conteúdo das seções */
 section {
     margin-top: 80px;
     padding: 20px;
@@ -102,7 +100,6 @@ footer h2 {
     margin-bottom: 10px;
 }
 
-/* Estilo para o formulário de login */
 footer form input, footer form select, footer form button {
     padding: 10px;
     font-size: 1rem;
@@ -125,7 +122,6 @@ footer form button:hover {
     background-color: #6f0f0f;
 }
 
-/* Estilos da tabela */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -147,333 +143,137 @@ table tr:hover {
     background-color: #eb7676;
 }
 
-/* Estilos para os filmes */
-#filmes-EM-CARTAZ {
-    padding: 40px;
-    background-color: #222222;
-    color: white;
-    text-align: center;
-}
 
-.filmes-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 20px;
-}
+/*Estilos modernos para os filmes*/
 
-.filme-card {
-    background-color: #333333;
-    border-radius: 8px;
-    overflow: hidden;
-    width: 250px;
-    text-align: center;
-    transition: transform 0.3s ease;
-}
+    #filmes-EM-CARTAZ {
+        padding: 40px;
+        background-color: #222222;
+        color: white;
+        text-align: center;
+        
+    }
 
-.filme-card:hover {
-    transform: scale(1.05);
-}
+    .filmes-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 20px;
+    }
 
-.filme-card img {
-    width: 100%;
-    height: auto;
-    border-bottom: 2px solid #8C1414;
-}
+    .filme-card {
+        background-color: #333333;
+        border-radius: 8px;
+        overflow: hidden;
+        width: 250px;
+        text-align: center;
+        transition: transform 0.3s ease;
+    }
 
-.filme-card h3 {
-    font-size: 1.2rem;
-    margin: 10px 0;
-    font-weight: 600;
-}
+    .filme-card:hover {
+        transform: scale(1.05);
+    }
 
-.filme-card p {
-    font-size: 1rem;
-    color: #f1f1f1;
-}
+    .filme-card img {
+        width: 100%;
+        height: auto;
+        border-bottom: 2px solid #8C1414;
+    }
 
-.filme-card button {
-    background-color: #8C1414;
-    color: white;
-    border: none;
-    padding: 10px;
-    width: 100%;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
+    .filme-card h3 {
+        font-size: 1.2rem;
+        margin: 10px 0;
+        font-weight: 600;
+    }
 
-.filme-card button:hover {
-    background-color: #6f0f0f;
-}
+    .filme-card p {
+        font-size: 1rem;
+        color: #f1f1f1;
+    }
 
-/* Estilos para o formulário de cadastro */
-#cadastrar {
-    background-color: #f4f4f4;
-    padding: 40px 20px;
-    text-align: center;
-}
+    #EMCARTAZ{
+        color: #ddd;
 
-.form-container {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
+    }
 
-h4 {
-    font-size: 1.2rem;
-    color: #666;
-}
+    .filme-card button {
+        background-color: #8C1414;
+        color: white;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
 
-h2 {
-    font-size: 2rem;
-    font-weight: 700;
-    color: #8C1414;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-}
+    .filme-card button:hover {
+        background-color: #6f0f0f;
+    }
 
-/* Estilos para os campos de entrada */
-.input-group {
-    margin-bottom: 20px;
-    text-align: left;
-}
 
-.input-group label {
-    font-size: 1rem;
-    color: #333;
-    margin-bottom: 5px;
-    display: block;
-}
-
-.input-group input[type="text"],
-.input-group input[type="email"],
-.input-group input[type="tel"],
-.input-group input[type="date"] {
-    width: 100%;
-    padding: 12px;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-    transition: border-color 0.3s ease;
-}
-
-.input-group input[type="text"]:focus,
-.input-group input[type="email"]:focus,
-.input-group input[type="tel"]:focus,
-.input-group input[type="date"]:focus {
-    border-color: #8C1414;
-    outline: none;
-}
-
-/* Estilos para o grupo de checkboxes */
-.genero .checkbox-group {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-bottom: 20px;
-}
-
-.checkbox-group label {
-    font-size: 1rem;
-    color: #333;
-}
-
-.checkbox-group input[type="checkbox"] {
-    transform: scale(1.2);
-}
-
-/* Estilo do botão */
-button {
-    background-color: #8C1414;
-    color: white;
-    font-size: 1.2rem;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: 100%;
-}
-
-button:hover {
-    background-color: #6f0f0f;
-}
-/* Estilos para a Tabela de Informações */
-#Informacoes {
-    background-color: #222222;
-    padding: 40px 20px;
-    color: #fff;
-    text-align: center;
-}
-
-.table-container {
-    max-width: 1000px;
-    margin: 0 auto;
-    background-color: #333;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #ec0c0c;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-/* Estilos para a Tabela */
-table {
+    /*Calendario*/
+.calendario-semana {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
 }
 
-table th, table td {
-    padding: 12px;
+.calendario-semana th, .calendario-semana td {
+    border: 1px solid #ff0000;
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
     font-size: 1rem;
-    text-align: left;
-    border-bottom: 1px solid #444;
 }
 
-table th {
-    background-color: #8C1414;
-    color: white;
-    text-transform: uppercase;
+.calendario-semana th {
+    background-color: #db5f69;
+    color: rgb(14, 7, 7);
 }
 
-table tr:nth-child(even) {
-    background-color: #444;
+.calendario-semana td {
+    background-color: #e49595;
 }
 
-table tr:hover {
-    background-color: #6f0f0f;
-    cursor: pointer;
+.calendario-semana td:hover {
+    background-color: hsl(0, 73%, 49%);
 }
 
-table td {
-    color: #f1f1f1;
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #110404;
 }
 
-table td, table th {
-    border-radius: 5px;
-    padding: 15px 20px;
+.calendario-semana td br {
+    margin: 6px 0;
+}
+#calendario {
+    margin: 40px 0;
 }
 
-table td {
-    transition: background-color 0.3s ease;
-}
+#pipocas {
+    color: black
 
-table td:hover {
-    background-color: #eb7676;
 }
-
-/* Responsividade */
-@media (max-width: 768px) {
-    table th, table td {
-        font-size: 0.9rem;
-        padding: 10px;
-    }
-}
-/* Estilos do menu */
-nav {
-    background: linear-gradient(135deg, #8C1414, #6f0f0f); /* Gradiente de fundo */
-    padding: 15px 30px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 999;
-    transition: background-color 0.3s ease;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Ícone do menu para dispositivos móveis */
-.menu-icon {
-    display: none;
-    font-size: 30px;
-    color: white;
-    cursor: pointer;
+.combo-img {
     transition: transform 0.3s ease;
-}
+    border-radius: 10px;
+  }
 
-/* Itens do menu */
-.menu-items {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+  .combo-img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
 
-.menu-items a {
-    color: white;
-    text-decoration: none;
-    padding: 12px 20px;
-    margin: 0 15px;
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: color 0.3s ease, transform 0.3s ease;
-}
+  section {
+    text-align: center;
+  }
 
-.menu-items a:hover {
-    color: #ec0c0c;
-    transform: scale(1.1); /* Efeito de aumento ao passar o mouse */
-}
-
-/* Menu para dispositivos móveis */
-@media (max-width: 768px) {
-    .menu-items {
-        display: none;
-        flex-direction: column;
-        background-color: #6f0f0f;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        right: 0;
-        padding: 20px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        transition: transform 0.3s ease-in-out;
-    }
-
-    .menu-items.active {
-        display: flex;
-    }
-
-    .menu-icon {
-        display: block;
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        font-size: 30px;
-        color: white;
-        cursor: pointer;
-    }
-
-    .menu-items a {
-        font-size: 20px;
-        margin: 15px 0;
-        text-align: center;
-    }
-}
-
-/* Animação para o menu móvel */
-.menu-icon:hover {
-    transform: rotate(90deg); /* Efeito de rotação no ícone */
-}
-
-/* Quando o menu estiver ativo no modo móvel */
-.menu-items.active {
-    display: flex;
-    transform: translateY(0);
-}
-
+  .combo-item {
+    display: inline-block;
+    margin: 20px;
+  }
